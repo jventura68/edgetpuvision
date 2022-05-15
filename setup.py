@@ -19,9 +19,7 @@ setup(
         'pycoral>=1.0.0',
     ],
     entry_points = {
-        'console_scripts': ['edgetpu_classify=edgetpuvision.classify:main',
-                            'edgetpu_classify_server=edgetpuvision.classify_server:main',
-                            'edgetpu_detect=edgetpuvision.detect:main',
+        'console_scripts': ['edgetpu_detect=edgetpuvision.detect:main',
                             'edgetpu_detect_server=edgetpuvision.detect_server:main'],
     },
     python_requires='>=3.5.3',
